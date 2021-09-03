@@ -1,0 +1,14 @@
+{
+  "name": "playwright-test-coverage",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [
+    "playwright",
+    "coverage",
+    "istanbul",
+    "babel"
+  ],
+  "author": "Anish Karandikar <anishkny@gmail.com>",
+  "license": "MIT",
+  "description": "Extends Playwright test to measure code coverage"
+}
