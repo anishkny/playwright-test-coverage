@@ -10,5 +10,8 @@
   ],
   "author": "Anish Karandikar <anishkny@gmail.com>",
   "license": "MIT",
-  "description": "Extends Playwright test to measure code coverage"
+  "description": "Extends Playwright test to measure code coverage",
+  "peerDependencies": {
+    "@playwright/test": "^1.14.1"
+  }
 }
