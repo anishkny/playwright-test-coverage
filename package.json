@@ -13,5 +13,8 @@
   "description": "Extends Playwright test to measure code coverage",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
+  },
+  "scripts": {
+    "test": "./test/go.sh"
   }
 }
