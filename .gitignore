@@ -1,1 +1,7 @@
+.next/
+.nyc_output/
+coverage/
 node_modules/
+
+## Copied over for testing
+test/tests/index.js
