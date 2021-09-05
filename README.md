@@ -41,7 +41,7 @@ Finally, run your server via `nyc` to capture code coverage. For more details se
 
 ## Demo
 
-_Coming soon_
+See [anishkny/playwright-test-coverage-demo](https://github.com/anishkny/playwright-test-coverage-demo).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
