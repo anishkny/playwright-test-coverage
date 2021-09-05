@@ -9,8 +9,8 @@ npm install
 
 # If CI is set, install browsers
 if [ -n "${CI-}" ]; then
-  npx playwright install chrome
-  npx playwright install-deps chrome
+  npx playwright install
+  npx playwright install-deps
 fi
 
 # Copy source files to be tested
