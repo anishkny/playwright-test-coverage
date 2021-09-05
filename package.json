@@ -18,6 +18,10 @@
     "@playwright/test": "^1.14.1"
   },
   "scripts": {
-    "test": "./test/go.sh"
+    "test": "./test/go.sh",
+    "release": "[[ -z $(git diff --stat) ]] && standard-version || echo Please commit changes first"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.1"
   }
 }
