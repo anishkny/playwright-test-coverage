@@ -12,6 +12,7 @@
     "@playwright/test": "^1.14.1",
     "babel-plugin-istanbul": "^6.0.0",
     "chai": "^4.3.4",
+    "nyc": "^15.1.0",
     "start-server-and-test": "^1.14.0"
   }
 }
