@@ -4,23 +4,21 @@ set -euxo pipefail
 # Change to script directory
 cd "$(dirname "$0")"
 
-# Install dependencies
-npm install
-
-# If CI is set, install browsers
-if [ -n "${CI-}" ]; then
-  npx playwright install
-  npx playwright install-deps
-fi
-
 # Copy source files to be tested
 cp ../index.js tests/
 
-# Clean slate
-rm -rf .next/ coverage/ .nyc_output/
+# If CI is set, install dependencies
+if [ -n "${CI-}" ]; then
+  npm install
+  npx playwright install-deps
+  npx playwright install
+fi
 
-# Start server and run tests
-npx start-server-and-test 3000
-
-# Verify coverage
-node ./verify-coverage.js
+# For each browser, run test and verify code coverage is generated
+for BROWSER in "chromium" "firefox" "webkit"
+do
+  echo "Testing: $BROWSER"
+  rm -rf .next/ coverage/ .nyc_output/
+  npx start-server-and-test 3000 "playwright test --browser $BROWSER"
+  node ./verify-coverage.js
+done

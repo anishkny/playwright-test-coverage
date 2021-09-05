@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "nyc next dev",
-    "test": "playwright test"
+    "test": "./go.sh"
   },
   "dependencies": {
     "next": "^11.1.2",
