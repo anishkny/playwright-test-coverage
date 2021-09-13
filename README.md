@@ -1,7 +1,7 @@
 # Playwright Test Coverage
 
 [![CI/CD](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml)
-![npm](https://img.shields.io/npm/v/playwright-test-coverage)
+[![npm](https://img.shields.io/npm/v/playwright-test-coverage)](https://www.npmjs.com/package/playwright-test-coverage)
 
 A [Playwright](https://playwright.dev) extension that collects code coverage from running end-to-end tests. Assumes that code has been  instrumented with [babel-plugin-istanbul](https://github.com/istanbuljs/babel-plugin-istanbul) during the build process.
 
