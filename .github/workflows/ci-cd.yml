@@ -17,6 +17,12 @@ jobs:
         with:
           name: coverage
           path: test/coverage/
+      - name: Archive test results on failure
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: test/test-results/
 
   # Publish if tagged with version
   publish:

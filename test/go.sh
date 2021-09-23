@@ -18,7 +18,7 @@ fi
 for BROWSER in "chromium" "firefox" "webkit"
 do
   echo "Testing: $BROWSER"
-  rm -rf .next/ coverage/ .nyc_output/
+  rm -rf .next/ coverage/ .nyc_output/ test-results/
   npx start-server-and-test 3000 "playwright test --browser $BROWSER"
   node ./verify-coverage.js
 done
