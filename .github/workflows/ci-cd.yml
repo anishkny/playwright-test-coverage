@@ -16,7 +16,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: coverage
-          path: coverage/
+          path: test/coverage/
 
   # Publish if tagged with version
   publish:
