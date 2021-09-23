@@ -11,6 +11,12 @@ jobs:
         with:
           node-version: "14.x"
       - run: npm test
+      - name: Archive code coverage results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage
+          path: coverage/
 
   # Publish if tagged with version
   publish:
