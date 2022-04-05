@@ -44,7 +44,7 @@ Finally, run your server via `nyc` to capture code coverage. For more details se
 
 ## Demo
 
-See [anishkny/playwright-test-coverage-demo](https://github.com/anishkny/playwright-test-coverage-demo).
+See [anishkny/playwright-test-coverage-demo](https://github.com/anishkny/playwright-test-coverage-demo) or accompanying [blog post](https://dev.to/anishkny/code-coverage-for-a-nextjs-app-using-playwright-tests-18n7).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
