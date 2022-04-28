@@ -17,6 +17,8 @@ jobs:
         with:
           name: coverage
           path: test/coverage/
+      - name: Release Dry Run
+        run: npx standard-version --dry-run
       - name: Archive test results on failure
         if: ${{ failure() }}
         uses: actions/upload-artifact@v2
