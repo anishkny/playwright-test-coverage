@@ -25,3 +25,13 @@ do
   find coverage -type f | xargs head -9999
   node ./verify-coverage.js
 done
+
+# Test screenshot created in case of failure
+echo "Testing: screenshot"
+sleep 2
+rm -rf test-results/
+export FAIL_TEST=1
+npx start-server-and-test 3000 "playwright test" || true
+sleep 2
+find test-results -type f
+test -s test-results/*/*.png

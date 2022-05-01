@@ -5,7 +5,6 @@ const config = {
   reporter: "line",
   forbidOnly: !!process.env.CI,
   workers: 1,
-  retries: 2,
   use: {
     headless: !!process.env.CI,
     ignoreHTTPSErrors: true,
