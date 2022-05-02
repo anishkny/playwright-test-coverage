@@ -8,4 +8,9 @@ test("basic test", async ({ page }) => {
 
   // Wait for welcome message to appear
   await page.waitForSelector('[test-id="welcome-message"]');
+
+  // Fail test if enviroment variable is set
+  if (process.env.FAIL_TEST) {
+    test.fail();
+  }
 });

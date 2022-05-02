@@ -32,7 +32,6 @@ const test = baseTest.extend({
       await page.evaluate(() =>
         window.collectIstanbulCoverage(JSON.stringify(window.__coverage__))
       );
-      await page.close();
     }
   },
 });
