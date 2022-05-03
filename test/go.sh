@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-# Change to script directory
-cd "$(dirname "$0")"
+# Create tarball from package
+cd "$(dirname "$0")"/..
+rm -rf dist/
+mkdir dist/
+npm pack --pack-destination dist/
+mv dist/*.tgz dist/playwright-test-coverage.tgz
 
-# Copy source files to be tested
-cp ../index.js tests/
+# Install tarball in test folder
+cd "$(dirname "$0")"
+npm install ../dist/playwright-test-coverage.tgz
 
 # If CI is set, install dependencies
 if [ -n "${CI-}" ]; then
