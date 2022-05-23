@@ -22,6 +22,6 @@
     "release": "[[ -z $(git diff --stat) ]] && standard-version || echo Please commit changes first"
   },
   "devDependencies": {
-    "standard-version": "^9.3.1"
+    "standard-version": "^9.5.0"
   }
 }
