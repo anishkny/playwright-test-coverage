@@ -1,8 +1,6 @@
 .next/
 .nyc_output/
 coverage/
+dist/
 node_modules/
 test-results/
-
-## Copied over for testing
-test/tests/index.js
