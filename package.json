@@ -14,7 +14,7 @@
   "author": "Anish Karandikar <anishkny@gmail.com>",
   "license": "MIT",
   "description": "Extends Playwright test to measure code coverage",
-  "repository": "https://github.com/anishkny/playwright-test-coverage",
+  "repository": "github:anishkny/playwright-test-coverage",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
   },
