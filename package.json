@@ -15,6 +15,7 @@
   "license": "MIT",
   "description": "Extends Playwright test to measure code coverage",
   "repository": "github:anishkny/playwright-test-coverage",
+  "types": "./playwright-test-coverage.d.ts",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
   },
