@@ -3,7 +3,8 @@
   "version": "1.0.5",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "playwright",
@@ -15,6 +16,7 @@
   "license": "MIT",
   "description": "Extends Playwright test to measure code coverage",
   "repository": "github:anishkny/playwright-test-coverage",
+  "types": "index.d.ts",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
   },
