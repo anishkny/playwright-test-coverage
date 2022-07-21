@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/anishkny/playwright-test-coverage/compare/v1.0.5...v1.1.0) (2022-07-21)
+
+
+### Features
+
+* Add typings ([#58](https://github.com/anishkny/playwright-test-coverage/issues/58)) ([e8348c5](https://github.com/anishkny/playwright-test-coverage/commit/e8348c550cce1f2386e38e9bcb1056d7cf57d83b))
+
+
+### Test
+
+* Test packaged tarball ([#56](https://github.com/anishkny/playwright-test-coverage/issues/56)) ([e9aa333](https://github.com/anishkny/playwright-test-coverage/commit/e9aa333e79f8ff180ced387a042812257921daea))
+
+
+### Chores
+
+* Add repository field to package.json ([#57](https://github.com/anishkny/playwright-test-coverage/issues/57)) ([757e8f5](https://github.com/anishkny/playwright-test-coverage/commit/757e8f5e844565bd79dd909ba94793364b4fbaf5))
+* **deps:** Upgrade jpeg-js ([#54](https://github.com/anishkny/playwright-test-coverage/issues/54)) ([892e8ae](https://github.com/anishkny/playwright-test-coverage/commit/892e8ae7f48f202a5bd2489c689c6484da9b801b))
+* **package:** update all npm dependencies (2022-05-16) ([cca02d0](https://github.com/anishkny/playwright-test-coverage/commit/cca02d015cc28a52ef3e49396073c7d841e5eb67))
+* **package:** update all npm dependencies (2022-05-23) ([#49](https://github.com/anishkny/playwright-test-coverage/issues/49)) ([72a6314](https://github.com/anishkny/playwright-test-coverage/commit/72a631439f80f02c97e669024b15f0eff607678c))
+* **package:** update all npm dependencies (2022-05-30) ([#50](https://github.com/anishkny/playwright-test-coverage/issues/50)) ([3eea6cd](https://github.com/anishkny/playwright-test-coverage/commit/3eea6cd96676e105b455aaad307f677e865c9310))
+* **package:** update all npm dependencies (2022-07-11) ([#51](https://github.com/anishkny/playwright-test-coverage/issues/51)) ([1e9c43d](https://github.com/anishkny/playwright-test-coverage/commit/1e9c43dacacbd2a30b3c300c758474781797b009))
+* **package:** update all npm dependencies (2022-07-18) ([#52](https://github.com/anishkny/playwright-test-coverage/issues/52)) ([ecb53e0](https://github.com/anishkny/playwright-test-coverage/commit/ecb53e0e87a044fa6e19ed0dcfd76caf6b933e1b))
+
 ### [1.0.5](https://github.com/anishkny/playwright-test-coverage/compare/v1.0.4...v1.0.5) (2022-05-02)
 
 
