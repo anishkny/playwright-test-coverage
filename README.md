@@ -44,7 +44,7 @@ Finally, run your server via `nyc` to capture code coverage. For more details se
 
 ### Options
 
-- `ISTANBUL_CLI_OUTPUT` - Set this environment variable to specify where Istanbul coverage files should be output. Defaults to `$CWD/.nyc_output`.
+- `ISTANBUL_TEMP_DIR` - Set this environment variable to specify where Istanbul coverage files should be output. Defaults to `$CWD/.nyc_output`.
 
 ## Demo
 
