@@ -3,7 +3,9 @@ const path = require("path");
 const crypto = require("crypto");
 const baseTest = require("@playwright/test").test;
 
-const istanbulCLIOutput = path.join(process.cwd(), ".nyc_output");
+const istanbulCLIOutput = process.env.ISTANBUL_CLI_OUTPUT
+  ? path.resolve(process.env.ISTANBUL_CLI_OUTPUT)
+  : path.join(process.cwd(), ".nyc_output");
 
 function generateUUID() {
   return crypto.randomBytes(16).toString("hex");
