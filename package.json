@@ -22,9 +22,9 @@
   },
   "scripts": {
     "test": "./test/go.sh",
-    "release": "[[ -z $(git diff --stat) ]] && standard-version || echo Please commit changes first"
+    "release": "[[ -z $(git diff --stat) ]] && commit-and-tag-version || echo Please commit changes first"
   },
   "devDependencies": {
-    "standard-version": "^9.5.0"
+    "commit-and-tag-version": "^10.0.1"
   }
 }
