@@ -3,7 +3,9 @@ const path = require("path");
 const crypto = require("crypto");
 const baseTest = require("@playwright/test").test;
 
-const istanbulCLIOutput = path.join(process.cwd(), ".nyc_output");
+const istanbulTempDir = process.env.ISTANBUL_TEMP_DIR
+  ? path.resolve(process.env.ISTANBUL_TEMP_DIR)
+  : path.join(process.cwd(), ".nyc_output");
 
 function generateUUID() {
   return crypto.randomBytes(16).toString("hex");
@@ -16,12 +18,12 @@ const test = baseTest.extend({
         window.collectIstanbulCoverage(JSON.stringify(window.__coverage__))
       )
     );
-    await fs.promises.mkdir(istanbulCLIOutput, { recursive: true });
+    await fs.promises.mkdir(istanbulTempDir, { recursive: true });
     await context.exposeFunction("collectIstanbulCoverage", (coverageJSON) => {
       if (coverageJSON)
         fs.writeFileSync(
           path.join(
-            istanbulCLIOutput,
+            istanbulTempDir,
             `playwright_coverage_${generateUUID()}.json`
           ),
           coverageJSON
