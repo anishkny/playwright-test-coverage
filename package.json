@@ -25,6 +25,6 @@
     "release": "[[ -z $(git diff --stat) ]] && commit-and-tag-version || echo Please commit changes first"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^10.0.1"
+    "commit-and-tag-version": "^10.1.0"
   }
 }
