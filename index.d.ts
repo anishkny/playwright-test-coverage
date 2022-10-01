@@ -1,3 +1,3 @@
-declare module "playwright-test-coverage" {
+declare module "mstysk-playwright-test-coverage" {
   export { expect, test } from "@playwright/test";
 }

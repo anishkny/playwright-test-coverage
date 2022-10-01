@@ -1,6 +1,6 @@
 {
-  "name": "playwright-test-coverage",
-  "version": "1.1.0",
+  "name": "msytsk-playwright-test-coverage",
+  "version": "1.3.0",
   "main": "index.js",
   "files": [
     "index.js",
@@ -15,7 +15,7 @@
   "author": "Anish Karandikar <anishkny@gmail.com>",
   "license": "MIT",
   "description": "Extends Playwright test to measure code coverage",
-  "repository": "github:anishkny/playwright-test-coverage",
+  "repository": "github:mstysk/playwright-test-coverage",
   "types": "index.d.ts",
   "peerDependencies": {
     "@playwright/test": "^1.14.1"
