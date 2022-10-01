@@ -1,3 +1,9 @@
+⚠️ ⚠️ ⚠️  Warning ⚠️ ⚠️ ⚠️ 
+
+This Repository is forked from [anishkny/playwright-test-coverage](https://github.com/anishkny/playwright-test-coverage).
+Because the 1.1.0 version didn't include the fix for main.
+Please refer to [anishkny/playwright-test-coverage](https://github.com/anishkny/playwright-test-coverage) for the correct information as this repository will not be updated.
+
 # Playwright Test Coverage
 
 [![CI/CD](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml)
