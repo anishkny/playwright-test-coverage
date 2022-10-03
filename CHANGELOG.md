@@ -1,6 +1,24 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [1.2.0](https://github.com/anishkny/playwright-test-coverage/compare/v1.1.0...v1.2.0) (2022-10-03)
+
+
+### Features
+
+* Make Istanbul temp dir configurable ([#61](https://github.com/anishkny/playwright-test-coverage/issues/61)) ([797d2fb](https://github.com/anishkny/playwright-test-coverage/commit/797d2fb35dbd3e6ac23f116dc599a206fbafc175))
+
+
+### Chores
+
+* **package:** update all npm dependencies (2022-08-08) ([#63](https://github.com/anishkny/playwright-test-coverage/issues/63)) ([63c4dd6](https://github.com/anishkny/playwright-test-coverage/commit/63c4dd6344cd950fe75ef060dca3711ac14c397e))
+* **package:** update all npm dependencies (2022-08-15) ([#64](https://github.com/anishkny/playwright-test-coverage/issues/64)) ([d06e450](https://github.com/anishkny/playwright-test-coverage/commit/d06e45005cd264118689cafdf38ea099cbd9de1a))
+* **package:** update all npm dependencies (2022-08-15) ([#65](https://github.com/anishkny/playwright-test-coverage/issues/65)) ([ee42277](https://github.com/anishkny/playwright-test-coverage/commit/ee4227742bf45be0b1be6730e6af9f41a9fef807))
+* **package:** update all npm dependencies (2022-09-05) ([#66](https://github.com/anishkny/playwright-test-coverage/issues/66)) ([c1f31b1](https://github.com/anishkny/playwright-test-coverage/commit/c1f31b1e31c4d9b35371c3f83a225184fbb8179d))
+* **package:** update all npm dependencies (2022-09-19) ([#67](https://github.com/anishkny/playwright-test-coverage/issues/67)) ([f699053](https://github.com/anishkny/playwright-test-coverage/commit/f699053bf0f6523a044900ea5039e6e1c16dc5e8))
+* **package:** update all npm dependencies (2022-10-03) ([#70](https://github.com/anishkny/playwright-test-coverage/issues/70)) ([869e159](https://github.com/anishkny/playwright-test-coverage/commit/869e159b65fef8652bab529744a38976e4fabe39))
+* Use commit-and-tag-version ([#62](https://github.com/anishkny/playwright-test-coverage/issues/62)) ([6758ca8](https://github.com/anishkny/playwright-test-coverage/commit/6758ca8809792ae2be7351a47f73f276f6dadf1b))
 
 ## [1.1.0](https://github.com/anishkny/playwright-test-coverage/compare/v1.0.5...v1.1.0) (2022-07-21)
 
