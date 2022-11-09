@@ -5,6 +5,7 @@ on: [workflow_dispatch]
 jobs:
   release:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' # Only run on branch "main"
     steps:
       - uses: actions/checkout@v3
         with:
