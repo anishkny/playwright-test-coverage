@@ -21,8 +21,7 @@
     "@playwright/test": "^1.14.1"
   },
   "scripts": {
-    "test": "./test/go.sh",
-    "release": "[[ -z $(git diff --stat) ]] && commit-and-tag-version || echo Please commit changes first"
+    "test": "./test/go.sh"
   },
   "devDependencies": {
     "commit-and-tag-version": "^10.1.0"

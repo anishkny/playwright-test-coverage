@@ -1,11 +1,11 @@
-name: CI/CD
+name: Test
 
 on:
   push:
     branches:
       - main
     tags:
-      - 'v*'
+      - "v*"
   pull_request:
 
 jobs:
@@ -33,18 +33,3 @@ jobs:
         with:
           name: test-results
           path: test/test-results/
-
-  # Publish if tagged with version
-  publish:
-    needs: test
-    runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/v')
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "16.x"
-          registry-url: "https://registry.npmjs.org"
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
