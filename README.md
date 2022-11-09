@@ -1,6 +1,6 @@
 # Playwright Test Coverage
 
-[![CI/CD](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml)
+[![CI/CD](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/anishkny/playwright-test-coverage/actions/workflows/ci-cd.yml)
 [![Depfu](https://badges.depfu.com/badges/94d21dacdb732bad55583672f138c7eb/overview.svg)](https://depfu.com/github/anishkny/playwright-test-coverage?project_id=32640)
 [![npm](https://img.shields.io/npm/v/playwright-test-coverage)](https://www.npmjs.com/package/playwright-test-coverage)
 
