@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.2.5](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.4...v1.2.5) (2022-11-09)
+
+
+### Docs
+
+* **README:** Fix badge ([#79](https://github.com/anishkny/playwright-test-coverage/issues/79)) ([f70a4da](https://github.com/anishkny/playwright-test-coverage/commit/f70a4da941416be38da70f26ada0653d7bf818a5))
+
 ### [1.2.4](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.3...v1.2.4) (2022-11-09)
 
 
