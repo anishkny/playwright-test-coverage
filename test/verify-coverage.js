@@ -3,7 +3,7 @@ const { assert } = require("chai");
 
 const actualCoverage = require("./coverage/coverage-summary.json");
 
-expectedCoverage = {
+const expectedCoverage = {
   total: {
     lines: { total: 1, covered: 1, skipped: 0, pct: 100 },
     statements: { total: 1, covered: 1, skipped: 0, pct: 100 },
