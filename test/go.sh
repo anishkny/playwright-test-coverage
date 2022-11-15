@@ -2,18 +2,11 @@
 set -euxo pipefail
 
 # Create tarball from package
-cd "$(dirname "$0")"
-cd ..
-rm -rf dist/
-mkdir dist/
-npm pack --pack-destination dist/
-find dist
-mv dist/*.tgz dist/playwright-test-coverage.tgz
-find dist
+npm run pack
 
-# Install tarball in test folder
-cd "$(dirname "$0")"
-npm install ../dist/playwright-test-coverage.tgz
+# Change into script folder
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$SCRIPT_DIR"
 
 # If CI is set, install dependencies
 if [ -n "${CI-}" ]; then

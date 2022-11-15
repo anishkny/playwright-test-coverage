@@ -25,7 +25,8 @@
     "format:fix": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "test": "npm run format && npm run lint && ./test/go.sh"
+    "test": "npm run format && npm run lint && ./test/go.sh",
+    "pack": "./test/pack.sh"
   },
   "devDependencies": {
     "commit-and-tag-version": "^10.1.0",
