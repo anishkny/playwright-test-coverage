@@ -2,7 +2,8 @@
 set -euxo pipefail
 
 # Create tarball from package
-cd "$(dirname "$0")"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$SCRIPT_DIR"
 cd ..
 rm -rf dist/
 mkdir dist/
@@ -12,5 +13,5 @@ mv dist/*.tgz dist/playwright-test-coverage.tgz
 find dist
 
 # Install tarball in test folder
-cd "$(dirname "$0")"
+cd "$SCRIPT_DIR"
 npm install ../dist/playwright-test-coverage.tgz

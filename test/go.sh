@@ -2,8 +2,11 @@
 set -euxo pipefail
 
 # Create tarball from package
-cd "$(dirname "$0")"
-source ./pack.sh
+npm run pack
+
+# Change into script folder
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd "$SCRIPT_DIR"
 
 # If CI is set, install dependencies
 if [ -n "${CI-}" ]; then
