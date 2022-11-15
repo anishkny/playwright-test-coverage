@@ -21,9 +21,16 @@
     "@playwright/test": "^1.14.1"
   },
   "scripts": {
-    "test": "./test/go.sh"
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "npm run format && npm run lint && ./test/go.sh"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^10.1.0"
+    "commit-and-tag-version": "^10.1.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
   }
 }

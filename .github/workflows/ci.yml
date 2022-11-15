@@ -18,7 +18,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
-      - run: npm test
+      - name: Run Tests
+        run: |
+          npm install
+          npm test
       - name: Archive code coverage results
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
@@ -27,7 +30,6 @@ jobs:
           path: test/coverage/
       - name: Release Dry Run
         run: |
-          npm install
           npx commit-and-tag-version --dry-run
       - name: Archive test results on failure
         if: ${{ failure() }}

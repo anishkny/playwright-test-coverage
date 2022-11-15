@@ -1,0 +1,4 @@
+CHANGELOG.md
+test/.next/
+test/.nyc_output/
+test/coverage/
