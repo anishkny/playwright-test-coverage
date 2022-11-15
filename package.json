@@ -1,6 +1,6 @@
 {
   "name": "playwright-test-coverage",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "main": "index.js",
   "files": [
     "index.js",

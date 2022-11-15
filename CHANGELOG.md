@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.2.6](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.5...v1.2.6) (2022-11-15)
+
+
+### Test
+
+* Use eslint and prettier ([#81](https://github.com/anishkny/playwright-test-coverage/issues/81)) ([a44cc9c](https://github.com/anishkny/playwright-test-coverage/commit/a44cc9cc454e05d614eacfdbe121d5761b136e20))
+
+
+### Chores
+
+* Bump test/package-lock version automatically ([#83](https://github.com/anishkny/playwright-test-coverage/issues/83)) ([522b005](https://github.com/anishkny/playwright-test-coverage/commit/522b005ca4f0f8abe1aa1719673c1d347926e277))
+* **package:** update all npm dependencies (2022-11-14) ([#80](https://github.com/anishkny/playwright-test-coverage/issues/80)) ([3ddfefd](https://github.com/anishkny/playwright-test-coverage/commit/3ddfefd45a73952e48bc9b43e74ca5f0783eea89))
+
 ### [1.2.5](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.4...v1.2.5) (2022-11-09)
 
 
