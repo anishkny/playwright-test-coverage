@@ -29,9 +29,7 @@ jobs:
           name: coverage
           path: test/coverage/
       - name: Release Dry Run
-        run: |
-          npm run pack
-          npx commit-and-tag-version --commit-all --dry-run
+        run: npx commit-and-tag-version --commit-all --dry-run
       - name: Archive test results on failure
         if: ${{ failure() }}
         uses: actions/upload-artifact@v3
