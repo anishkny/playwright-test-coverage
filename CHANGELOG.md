@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [1.2.7](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.6...v1.2.7) (2022-12-07)
+
+
+### Chores
+
+* **package:** update all npm dependencies (2022-11-21) ([#84](https://github.com/anishkny/playwright-test-coverage/issues/84)) ([677ea93](https://github.com/anishkny/playwright-test-coverage/commit/677ea9377e17ac3b41864eb402bb35b75e394caa))
+* **package:** update all npm dependencies (2022-11-28) ([#85](https://github.com/anishkny/playwright-test-coverage/issues/85)) ([b62dedb](https://github.com/anishkny/playwright-test-coverage/commit/b62dedb9bcc21ca24e377e94eef9cdef2dd6dd42))
+* **package:** update all npm dependencies (2022-12-05) ([#86](https://github.com/anishkny/playwright-test-coverage/issues/86)) ([1b202ac](https://github.com/anishkny/playwright-test-coverage/commit/1b202ac6f0fa5a299fc84fe87cc977f3f41568c6))
+
 ### [1.2.6](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.5...v1.2.6) (2022-11-15)
 
 
