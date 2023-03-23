@@ -5,6 +5,13 @@ See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-
 
 ### [Unreleased](https://github.com/anishkny/playwright-test-coverage/commits/main) (if any)
 
+## [1.2.11](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.10...v1.2.11) (2023-03-23)
+
+
+### Chores
+
+* **release:** Publish to npm before git push ([#111](https://github.com/anishkny/playwright-test-coverage/issues/111)) ([5e696bf](https://github.com/anishkny/playwright-test-coverage/commit/5e696bfa935ab6fdbc0ce2f63b06e8f9359eca22))
+
 ## [1.2.10](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.9...v1.2.10) (2023-03-22)
 
 
