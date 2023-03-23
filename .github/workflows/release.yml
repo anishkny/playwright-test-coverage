@@ -25,5 +25,5 @@ jobs:
           git checkout main
           npm install
           npx commit-and-tag-version --commit-all
-          git push --follow-tags origin main
           npm publish
+          git push --follow-tags origin main
