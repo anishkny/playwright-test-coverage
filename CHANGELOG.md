@@ -3,7 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
-### [Unreleased](https://github.com/anishkny/playwright-test-coverage/commits/main) (if any)
+## [Unreleased](https://github.com/anishkny/playwright-test-coverage/commits/main) (if any)
+
+## [1.2.12](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.11...v1.2.12) (2023-03-23)
+
+
+### Chores
+
+* **versioning:** Fix header level ([9a9aed2](https://github.com/anishkny/playwright-test-coverage/commit/9a9aed2531a4ea9cd0d6494dd7e96ca5c4ce464c))
 
 ## [1.2.11](https://github.com/anishkny/playwright-test-coverage/compare/v1.2.10...v1.2.11) (2023-03-23)
 
