@@ -10,7 +10,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.1",
+    "@playwright/test": "^1.32.3",
     "babel-plugin-istanbul": "^6.1.1",
     "chai": "^4.3.7",
     "nyc": "^15.1.0",
