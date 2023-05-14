@@ -4,13 +4,13 @@
     "test": "./go.sh"
   },
   "dependencies": {
-    "next": "^13.3.0",
+    "next": "^13.4.2",
     "playwright-test-coverage": "file:../dist/playwright-test-coverage.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.3",
+    "@playwright/test": "^1.33.0",
     "babel-plugin-istanbul": "^6.1.1",
     "chai": "^4.3.7",
     "nyc": "^15.1.0",
