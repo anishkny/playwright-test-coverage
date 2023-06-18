@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "commit-and-tag-version": "^11.2.1",
-    "eslint": "^8.41.0",
+    "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.8"
   }
