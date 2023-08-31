@@ -15,8 +15,8 @@ const test = baseTest.extend({
   context: async ({ context }, use) => {
     await context.addInitScript(() =>
       window.addEventListener("beforeunload", () =>
-        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__))
-      )
+        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__)),
+      ),
     );
     await fs.promises.mkdir(istanbulTempDir, { recursive: true });
     await context.exposeFunction("collectIstanbulCoverage", (coverageJSON) => {
@@ -24,15 +24,15 @@ const test = baseTest.extend({
         fs.writeFileSync(
           path.join(
             istanbulTempDir,
-            `playwright_coverage_${generateUUID()}.json`
+            `playwright_coverage_${generateUUID()}.json`,
           ),
-          coverageJSON
+          coverageJSON,
         );
     });
     await use(context);
     for (const page of context.pages()) {
       await page.evaluate(() =>
-        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__))
+        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__)),
       );
     }
   },
