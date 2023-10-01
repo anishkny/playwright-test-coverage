@@ -4,7 +4,7 @@
     "test": "./go.sh"
   },
   "dependencies": {
-    "next": "^13.4.19",
+    "next": "^13.5.3",
     "playwright-test-coverage": "file:../dist/playwright-test-coverage.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -14,6 +14,6 @@
     "babel-plugin-istanbul": "^6.1.1",
     "chai": "^4.3.8",
     "nyc": "^15.1.0",
-    "start-server-and-test": "^2.0.0"
+    "start-server-and-test": "^2.0.1"
   }
 }
