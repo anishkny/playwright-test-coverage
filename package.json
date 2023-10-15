@@ -29,8 +29,8 @@
     "pack": "./test/pack.sh"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^11.2.3",
-    "eslint": "^8.49.0",
+    "commit-and-tag-version": "^11.2.4",
+    "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.0.3"
   }
