@@ -4,7 +4,7 @@
     "test": "./go.sh"
   },
   "dependencies": {
-    "next": "^13.5.3",
+    "next": "^13.5.6",
     "playwright-test-coverage": "file:../dist/playwright-test-coverage.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
