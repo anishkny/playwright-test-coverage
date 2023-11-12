@@ -14,6 +14,6 @@
     "babel-plugin-istanbul": "^6.1.1",
     "chai": "^4.3.10",
     "nyc": "^15.1.0",
-    "start-server-and-test": "^2.0.1"
+    "start-server-and-test": "^2.0.2"
   }
 }
