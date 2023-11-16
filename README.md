@@ -4,6 +4,7 @@
 [![Depfu](https://badges.depfu.com/badges/94d21dacdb732bad55583672f138c7eb/overview.svg)](https://depfu.com/github/anishkny/playwright-test-coverage?project_id=32640)
 [![npm](https://img.shields.io/npm/v/playwright-test-coverage)](https://www.npmjs.com/package/playwright-test-coverage)
 [![npm](https://img.shields.io/npm/dw/playwright-test-coverage)](https://npmtrends.com/playwright-test-coverage)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/mxschmitt/awesome-playwright)
 
 A [Playwright](https://playwright.dev) extension that collects code coverage from running end-to-end tests. Assumes that code has been instrumented with [babel-plugin-istanbul](https://github.com/istanbuljs/babel-plugin-istanbul) during the build process.
 
