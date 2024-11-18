@@ -6,16 +6,24 @@
 [![npm](https://img.shields.io/npm/dw/playwright-test-coverage)](https://npmtrends.com/playwright-test-coverage)
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/mxschmitt/awesome-playwright)
 
-A [Playwright](https://playwright.dev) extension that collects code coverage from running end-to-end tests. Assumes that code has been instrumented with [babel-plugin-istanbul](https://github.com/istanbuljs/babel-plugin-istanbul) during the build process.
+A [Playwright](https://playwright.dev) extension that collects code coverage from running end-to-end tests. Assumes that code has been instrumented with [istanbul-lib-instrument](https://www.npmjs.com/package/istanbul-lib-instrument) during the build process, for example, with [babel-plugin-istanbul](https://github.com/istanbuljs/babel-plugin-istanbul) or [rollup-plugin-istanbul](https://github.com/artberri/rollup-plugin-istanbul).
 
 ## Prerequisites
 
 - Playwright test framework
-- `babel-plugin-istanbul` plugin
-- `nyc` for running tests
+- A process to instrument your JavaScript code (if you are using babel, `babel-plugin-istanbul` or if you are using `rollup`, `rollup-plugin-istanbul`)
+- `nyc` for running tests or for manually generating the reports
+
+#### If you are using babel
 
 ```bash
 npm i -D @playwright/test babel-plugin-istanbul nyc
+```
+
+#### If you are using rollup
+
+```bash
+npm i -D @playwright/test rollup-plugin-istanbul nyc
 ```
 
 ## Installation
@@ -40,9 +48,9 @@ test("basic test", async ({ page }) => {
 });
 ```
 
-Then, instrument your front end source code for coverage using the `babel-plugin-istanbul` plugin.
+Then, instrument your front end source code for coverage using the `babel-plugin-istanbul` or the `rollup-plugin-istanbul`.
 
-Finally, run your server via `nyc` to capture code coverage. For more details see [istanbul/nyc](https://github.com/istanbuljs/nyc).
+Finally, run your server via `nyc` to capture code coverage or manually run `nyc` with the `report` option. For more details see [istanbul/nyc](https://github.com/istanbuljs/nyc).
 
 ### Options
 
