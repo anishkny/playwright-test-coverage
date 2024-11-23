@@ -31,9 +31,9 @@ const test = baseTest.extend({
     });
     await use(context);
     for (const page of context.pages()) {
-      await page.evaluate(() =>
-        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__)),
-      );
+      await page.evaluate(() => {
+        window.collectIstanbulCoverage(JSON.stringify(window.__coverage__));
+      });
     }
   },
 });
